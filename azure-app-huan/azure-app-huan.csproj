@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_huan</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/5ac92421-844b-436c-b31b-604c36e348cd/resourceGroups/az-study-rg/providers/microsoft.insights/components/azure-app-huan</ApplicationInsightsResourceId>
+    <UserSecretsId>e7fc7226-b551-44b6-b3cd-3af541c72221</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>

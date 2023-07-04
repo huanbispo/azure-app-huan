@@ -14,6 +14,7 @@ namespace azure_app_huan.Pages
 
         public void OnGet()
         {
+            throw new Exception("This is an exception");
         }
     }
 }
